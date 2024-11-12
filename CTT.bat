@@ -524,3 +524,4 @@ goto success
 
 :success
 mshta "javascript:alert('Success.');close();"
+goto MainMenu
