@@ -520,3 +520,7 @@ rmdir /s /q "%SystemRoot%\System32\SleepStudy
 Del /S /F /Q %temp%
 Del /S /F /Q %Windir%\Temp
 Del /S /F /Q C:\WINDOWS\Prefetch
+goto success
+
+:success
+mshta "javascript:alert('Success.');close();"
