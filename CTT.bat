@@ -13,15 +13,28 @@ if %errorlevel% neq 0 (
 
 :MainMenu
 cls
-echo ################################
-echo #    Astros Version of CTT     #
-echo ################################
-echo # 1. Run Astros Version of CTT #
-echo ################################    
+chcp 65001
+echo.
+echo.    
+echo.
+echo.                  █████╗ ███████╗████████╗██████╗  ██████╗ ███████╗     ██████╗████████╗████████╗
+echo.                  ██╔══██╗██╔════╝╚══██╔══╝██╔══██╗██╔═══██╗██╔════╝    ██╔════╝╚══██╔══╝╚══██╔══╝
+echo.                  ███████║███████╗   ██║   ██████╔╝██║   ██║███████╗    ██║        ██║      ██║   
+echo.                  ██╔══██║╚════██║   ██║   ██╔══██╗██║   ██║╚════██║    ██║        ██║      ██║   
+echo.                  ██║  ██║███████║   ██║   ██║  ██║╚██████╔╝███████║    ╚██████╗   ██║      ██║   
+echo.                  ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝ ╚═════╝ ╚══════╝     ╚═════╝   ╚═╝      ╚═╝   
+echo. 
+echo. 
+echo.                                          1. Run Astros Version of CTT 
+echo.                                          2. Exit
+echo.
+echo.
+echo.
+echo.                                          
 set /p input="Choose an option : "
 
 if /i %input% == 1 goto Warning
-
+if /i %input% == 2 goto 
 
 
 :Warning
